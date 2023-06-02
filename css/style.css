@@ -1,0 +1,26 @@
+p {
+    /* 주석~ */
+    color:salmon;
+}
+
+.disabled-link {
+    color: grey;
+
+}
+
+#subscribe {
+    color:brown
+}
+
+input[type="email"] {
+    /* type이 이메일인 것만 테두리!! */
+    border: 2px solid tomato;
+}
+
+a:hover {
+    color: green;
+}
+
+#main {
+    background-color:wheat;
+}
