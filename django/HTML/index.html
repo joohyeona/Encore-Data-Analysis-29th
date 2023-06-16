@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- 패턴 header>nav>ul>li*3 -->
+<body>
+    <header>
+        <!-- 메뉴 -->
+        <nav>
+            <ul>
+                <li><h1>Playdata</h1></li>
+                <li><a href="#">Home</a></li>
+                <li class="disabled-link">About</li>
+                <li class="disabled-link"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <article>
+            <h2>첫 번째 글</h2>
+            <p>내용1</p>
+        </article>
+        <!-- alt shift 방향키하면 복붙됨 -->
+        <article>
+            <h2>두 번째 글</h2>
+            <p>내용2</p>
+        </article>
+        <div>
+            <h2 id="subscribe">구독을 하려면 이메일을 입력해 주세요</h2>
+            <form action="#">
+                <label for="email">E-mail:</label>
+                <input type="email" name="" id="email">
+                <input type="submit" value="구독버튼">
+            </form>
+            <h2>구독 시작 날짜를 선택해 주세요</h2>
+            <form action="#">
+                <label for="email">E-mail:</label>
+                <input type="email" name="" id="email">
+                <input type="submit" value="구독버튼">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>개인정보처리지침</li>
+            <li>이용약관</li>
+            <li>copyright playdata 2023</li>
+        </ul>
+    </footer>
+</body>
+</html>
